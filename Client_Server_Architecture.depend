@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1620461530 source:d:\cgclass\client_server_architecture\main.cpp
+1622194698 source:d:\cgclass\client_server_architecture\main.cpp
 	<windows.h>
 	<string.h>
 	<GL/glut.h>

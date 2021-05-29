@@ -102,17 +102,10 @@ void selectState(int msg){
 // Default display function
 void display(void){
   glClear(GL_COLOR_BUFFER_BIT);
-<<<<<<< HEAD
   output((screenX/2 - ((strlen(message1)/2)*10)), (int)(screenY/2 - 20), message1, GLUT_BITMAP_HELVETICA_18);
   output((screenX/2 - ((strlen(message2)/2)*10)), (int)(screenY/2), message2, GLUT_BITMAP_HELVETICA_18);
   output((screenX/2 - ((strlen(message3)/2)*10)), (int)(screenY/2 + 20), message3, GLUT_BITMAP_HELVETICA_18);
   output((screenX/2 - ((strlen(pressAnyMsg)/2)*10)), (int)screenY*0.9, pressAnyMsg, GLUT_BITMAP_8_BY_13);
-=======
-  output((screenX/2 - ((strlen(message1)/2)*9)), (int)(screenY/2 - 20), message1, GLUT_BITMAP_HELVETICA_18);
-  output((screenX/2 - ((strlen(message2)/2)*9)), (int)(screenY/2), message2, GLUT_BITMAP_HELVETICA_18);
-  output((screenX/2 - ((strlen(message3)/2)*9)), (int)(screenY/2 + 20), message3, GLUT_BITMAP_HELVETICA_18);
-  output((screenX/2 - ((strlen(pressAnyMsg)/2)*9)), (int)screenY*0.9, pressAnyMsg, GLUT_BITMAP_8_BY_13);
->>>>>>> 11cd89f43f5636bf5e18be41f8fa6259578dc2f4
   if(msgCount == 6){
         funcDisplay();
   }
